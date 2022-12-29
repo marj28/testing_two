@@ -25,7 +25,7 @@
         </v-menu>
         <v-btn text @click="$router.push({ name: 'Login' })">
           <span>LOG OUT</span>
-          <v-icon right>exit_to_app</v-icon>
+          <v-icon right></v-icon>
         </v-btn>
       </v-app-bar>
       <v-navigation-drawer

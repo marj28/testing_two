@@ -1,7 +1,11 @@
 <template>
-    
-  <v-row justify="center">
+  <v-app>
     <AdminNavbar />
+    <v-container>
+
+   
+  
+  <v-row justify="center">
     <template v-slot:activator="{ on, attrs }">
       <v-btn
         color="#77dd77"
@@ -391,17 +395,18 @@
       </v-stepper>
     </v-card>
   </v-row>
+</v-container>
+</v-app>
 </template>
   
   <script>
-  import AdminNavbar from "@/navigation/AdminNavbar";
+import AdminNavbar from "@/navigation/AdminNavbar";
 
 export default {
-    components: {
-        AdminNavbar
-},
+  components: {
+    AdminNavbar,
+  },
   data() {
-   
     return {
       e1: 1,
       dialog: false,
@@ -441,7 +446,7 @@ export default {
       margin-top: -60px;
       
     } */
-#Employer .v-stepper-header {
+F #Employer .v-stepper-header {
   font-size: 10px;
 }
 

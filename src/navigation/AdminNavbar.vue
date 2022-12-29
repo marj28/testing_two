@@ -123,7 +123,7 @@ export default {
       {
         icon: "mdi mdi-account",
         text: "Forms",
-        route: "/AddUseraccount",
+        route: "/ScholarshipApplication",
       },
       {
         icon: "mdi-chevron-up",

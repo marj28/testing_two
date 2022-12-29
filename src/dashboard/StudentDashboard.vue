@@ -1,10 +1,7 @@
 <template>
-  <div>
-   <v-page>
-    
-   </v-page>
-
-    <v-card>
+  <v-app>
+    <StudentNavbar />
+    <v-content>
       <v-container class="my-5">
         <v-row class="mb-2">
           <v-col sm="12" md="10" xl="4" xs="4" lg="6">
@@ -24,7 +21,6 @@
               </v-col>
             </v-row>
           </v-col>
-          
 
           <v-col sm="12" md="10" xl="4" xs="4" lg="6">
             <v-row>
@@ -81,38 +77,13 @@
           </v-col>
         </v-row>
       </v-container>
-    </v-card>
-
-    <v-content>
-      <StudentNavbar />
       <router-view> </router-view>
     </v-content>
-  </div>
+  </v-app>
 </template>
-        
-    <!-- <script>
-    
-    import Navbar from '@/components/Navbar'
-    
-    
-    export default {
-      name: 'App',
-    
-      components: {
-    
-       Navbar,
-     
-      },
-    
-      data: () => ({
-        //
-      }),
-    };
-    </script>
-     -->
-    
-        
-        <script>
+      
+      
+      <script>
 import VueApexCharts from "vue-apexcharts";
 import StudentNavbar from "@/navigation/StudentNavbar";
 
@@ -187,9 +158,9 @@ export default {
   },
 };
 </script>
-      
-      
-      <style scoped>
+    
+    
+    <style scoped>
 #myChart {
   max-width: 500px;
   margin: 30px auto;
@@ -201,5 +172,5 @@ p {
   font-size: 20px;
 }
 </style>
-      
-      
+    
+    
